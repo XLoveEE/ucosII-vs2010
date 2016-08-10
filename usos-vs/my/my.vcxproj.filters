@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ucosii">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="port">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\os_cfg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app_cfg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\includes.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uCOS-II\ucos_ii.h">
+      <Filter>ucosii</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uCOS-II\os_cfg_r.h">
+      <Filter>ucosii</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WIN32\os_cpu.h">
+      <Filter>port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WIN32\os_trace.h">
+      <Filter>port</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\app.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_core.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_dbg_r.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_flag.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_mbox.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_mem.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_mutex.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_q.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_sem.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_task.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uCOS-II\os_time.c">
+      <Filter>ucosii</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WIN32\os_cpu_c.c">
+      <Filter>port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WIN32\os_trace.c">
+      <Filter>port</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
