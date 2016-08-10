@@ -1,17 +1,34 @@
-﻿生成启动时间为 2016/8/10 8:38:20。
-     1>项目“E:\单片机教程\ucos\VS2010+uCOSII\usos-vs\my\my.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2016/8/10 11:11:50。
+     1>项目“E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\my\my.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\ucosdemo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs" /IE:\MUC_Document\ucos\VS2010+uCOSII\WIN32 /I"E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\my" /IE:\MUC_Document\ucos\VS2010+uCOSII\my /I"E:\MUC_Document\ucos\VS2010+uCOSII\uCOS-II" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\app.c
+         app.c
+     1>e:\muc_document\ucos\vs2010+ucosii\win32\os_cpu.h(45): warning C4005: “_WIN32_WINNT”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdkddkver.h(197) : 参见“_WIN32_WINNT”的前一个定义
        Link:
-         所有输出均为最新。
-         my.vcxproj -> E:\单片机教程\ucos\VS2010+uCOSII\usos-vs\Debug\ucosdemo.exe
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\Debug\ucosdemo.exe" /INCREMENTAL /NOLOGO winmm.lib odbc32.lib odbccp32.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ucosdemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\Debug\ucosdemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\Debug\ucosdemo.lib" /MACHINE:X86 Debug\os_core.obj
+         Debug\os_dbg_r.obj
+         Debug\os_flag.obj
+         Debug\os_mbox.obj
+         Debug\os_mem.obj
+         Debug\os_mutex.obj
+         Debug\os_q.obj
+         Debug\os_sem.obj
+         Debug\os_task.obj
+         Debug\os_time.obj
+         Debug\os_cpu_c.obj
+         Debug\os_trace.obj
+         Debug\app.obj
+         my.vcxproj -> E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\Debug\ucosdemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\Debug\ucosdemo.exe.manifest" /manifest Debug\ucosdemo.exe.intermediate.manifest
        FinalizeBuildStatus:
          正在删除文件“Debug\ucosdemo.unsuccessfulbuild”。
          正在对“Debug\ucosdemo.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\单片机教程\ucos\VS2010+uCOSII\usos-vs\my\my.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“E:\MUC_Document\ucos\VS2010+uCOSII\usos-vs\my\my.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.04
+已用时间 00:00:01.13
