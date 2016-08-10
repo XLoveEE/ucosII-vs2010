@@ -10,7 +10,7 @@ OS_STK        AppStk_three[TASK_STK_SIZE];
 
 
 
-static void App_one(void *p_arg);#
+static void App_one(void *p_arg);
 static void App_two(void *p_arg);
 static void app_3(void *p_arg);
 
